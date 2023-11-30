@@ -1,4 +1,3 @@
 .venv
 captures
 *node_modules*
-*.json
