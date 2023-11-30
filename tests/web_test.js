@@ -6,10 +6,10 @@ const playwright = require('playwright');
     const page = await browser.newPage();
 
     // Navigate to the website
-    await page.goto('https://example.com');
+    await page.goto('http://20.119.109.144:8080/');
 
     // Take a screenshot
-    await page.screenshot({ path: 'example.png' });
+    await page.screenshot({ path: 'capture.png' });
 
     // Close the browser
     await browser.close();
