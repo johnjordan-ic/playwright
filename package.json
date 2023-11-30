@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@playwright/test": "^1.40.1"
+    "@playwright/test": "^1.40.1",
+    "@playwright/browser-chromium": "1.38.0",
+    "@playwright/browser-firefox": "1.38.0",
+    "@playwright/browser-webkit": "1.38.0"
   }
+  
 }
