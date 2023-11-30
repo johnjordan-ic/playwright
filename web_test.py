@@ -8,10 +8,10 @@ async def main():
         page = await browser.new_page()
 
         # Navigate to the website
-        await page.goto('https://example.com')
+        await page.goto('http://20.119.109.144:8080/')
 
         # Take a screenshot
-        await page.screenshot(path='example.png')
+        await page.screenshot(path='capture.png')
 
         # Close the browser
         await browser.close()
